@@ -453,18 +453,18 @@ if __name__ == "__main__":
 
                 img_but = gr.Button("开始制作")
 
-                # 案例图片
-                example_images = gr.Examples(
-                    inputs=[img_input],
-                    examples=[
-                        [path.as_posix()]
-                        for path in sorted(
-                            pathlib.Path(os.path.join(root_dir, "demo/images")).rglob(
-                                "*.jpg"
-                            )
-                        )
-                    ],
-                )
+                # # 案例图片
+                # example_images = gr.Examples(
+                #     inputs=[img_input],
+                #     examples=[
+                #         [path.as_posix()]
+                #         for path in sorted(
+                #             pathlib.Path(os.path.join(root_dir, "demo/images")).rglob(
+                #                 "*.jpg"
+                #             )
+                #         )
+                #     ],
+                # )
 
             # ---------------- 右半边 UI ----------------
             with gr.Column():
