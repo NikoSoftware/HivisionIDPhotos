@@ -81,8 +81,8 @@ def generate_layout_photo(input_height, input_width):
     LAYOUT_HEIGHT = 1180
     PHOTO_INTERVAL_H = 30  # 证件照与证件照之间的垂直距离
     PHOTO_INTERVAL_W = 30  # 证件照与证件照之间的水平距离
-    SIDES_INTERVAL_H = 50  # 证件照与画布边缘的垂直距离
-    SIDES_INTERVAL_W = 70  # 证件照与画布边缘的水平距离
+    SIDES_INTERVAL_H = 20  # 证件照与画布边缘的垂直距离
+    SIDES_INTERVAL_W = 20  # 证件照与画布边缘的水平距离
     LIMIT_BLOCK_W = LAYOUT_WIDTH - 2 * SIDES_INTERVAL_W
     LIMIT_BLOCK_H = LAYOUT_HEIGHT - 2 * SIDES_INTERVAL_H
 

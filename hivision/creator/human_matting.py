@@ -18,7 +18,7 @@ import os
 
 WEIGHTS = {
     "hivision_modnet": os.path.join(
-        os.path.dirname(__file__), "weights", "hivision_modnet.onnx"
+        os.path.dirname(__file__), "weights", "modnet_photographic_portrait_matting.onnx"
     ),
     "modnet_photographic_portrait_matting": os.path.join(
         os.path.dirname(__file__),
